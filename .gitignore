@@ -1,0 +1,4 @@
+Full-Resources
+*/*.tfstate*
+*/*.tfvars
+

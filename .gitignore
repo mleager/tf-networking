@@ -1,4 +1,5 @@
 Full-Resources
+*/.terraform/*
 */*.tfstate*
 */*.tfvars
 

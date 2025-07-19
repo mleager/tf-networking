@@ -1,3 +1,9 @@
+variable "project" {
+  type        = string
+  default     = "tf-networking"
+  description = "Name of the project"
+}
+
 variable "env" {
   type        = string
   default     = "development"

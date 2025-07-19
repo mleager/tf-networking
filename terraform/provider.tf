@@ -1,10 +1,5 @@
 terraform {
-  cloud {
-    organization = "mleager"
-    workspaces {
-      name = "aws-vpc"
-    }
-  }
+  backend "s3" {}
   required_providers {
     aws = {
       source  = "hashicorp/aws"

@@ -21,6 +21,7 @@ resource "aws_subnet" "public" {
 
   tags = {
     Name = "Public ${count.index}"
+    Tier = "Public"
   }
 }
 
@@ -34,6 +35,7 @@ resource "aws_subnet" "private" {
 
   tags = {
     Name = "Private ${count.index}"
+    Tier = "Private"
   }
 }
 
